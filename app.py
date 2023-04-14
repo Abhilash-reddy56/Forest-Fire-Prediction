@@ -4,7 +4,7 @@ import joblib
 
 app = Flask(__name__)
 
-model=joblib.load('forestfiremodel.pkl')
+model=joblib.load('Final_Model.pkl')
 
 @app.route('/')
 def hello_world():
